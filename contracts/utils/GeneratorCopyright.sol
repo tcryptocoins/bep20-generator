@@ -9,7 +9,7 @@ pragma solidity ^0.8.0;
  */
 contract GeneratorCopyright {
 
-    string private constant _GENERATOR = "https://interchained.github.io/bep20-generator";
+    string private constant _GENERATOR = "https://interswap.finance";
     string private _version;
 
     constructor (string memory version_) {
