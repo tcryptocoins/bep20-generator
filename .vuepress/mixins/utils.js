@@ -41,19 +41,19 @@ export default {
         });
       });
     },
-    gaSend (category, action, label) {
-      try {
-        ga('send', 'event', category, action, label);
-      } catch (e) {
-        console.log('ga send', { category, action, label });
-      }
-    },
-    fbtrack (eventName, eventParams) {
-      try {
-        fbq('track', eventName, (eventParams || {}));
-      } catch (e) {
-        console.log('fb track', { eventName: eventName, eventParams: (eventParams || {}) });
-      }
-    },
+//     gaSend (category, action, label) {
+//       try {
+//         ga('send', 'event', category, action, label);
+//       } catch (e) {
+//         console.log('ga send', { category, action, label });
+//       }
+//     },
+//     fbtrack (eventName, eventParams) {
+//       try {
+//         fbq('track', eventName, (eventParams || {}));
+//       } catch (e) {
+//         console.log('fb track', { eventName: eventName, eventParams: (eventParams || {}) });
+//       }
+//     },
   },
 };
