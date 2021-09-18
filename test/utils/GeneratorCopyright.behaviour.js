@@ -1,7 +1,7 @@
 function shouldBehaveLikeGeneratorCopyright (version) {
   describe('should have', function () {
     const _builtOn = {
-      generator: 'https://interswap.io',
+      generator: 'https://interswap.finance',
     };
 
     it('a generator value', async function () {
