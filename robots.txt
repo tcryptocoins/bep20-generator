@@ -1,4 +1,4 @@
 User-Agent: *
 Allow:
 
-Sitemap: https://interchained.github.io/bep20-generator/sitemap.xml
+Sitemap: https://tcryptocoins.github.io/bep20-generator/sitemap.xml
